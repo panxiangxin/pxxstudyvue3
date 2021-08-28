@@ -1,7 +1,7 @@
 <template>
   <main class="p-4 bg-gray-50 min-h-screen">
     <div class="max-w-screen-xl mx-auto bg-white p-8 rounded-lg shadow-2xl">
-      <h2 class="text-3xl my-6">评论</h2>
+      <h2 class="text-3xl my-6">评论Comments</h2>
       <CommentBox @submit="addNewComment" />
       <DividerHorizontal />
       <div
